@@ -1,5 +1,5 @@
 {
-  "name": "rx-http",
+  "name": "rx-http-observable",
   "version": "0.0.1",
   "description": "Http client for Javascript Projects",
   "author": "matheus.mbizutti@gmail.com",
