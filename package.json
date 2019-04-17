@@ -5,12 +5,9 @@
   "author": "matheus.mbizutti@gmail.com",
   "scripts": {
     "prebuild": "npm i",
-    "build": "tsc -p ./tsconfig.json && cp package.json dist/ && cp README.md dist/ && cd dist && npm pack"
+    "build": "tsc -p ./tsconfig.json && cp package.json dist && cp package-lock.json dist && cp README.md dist && cd dist && npm ci && npm pack"
   },
-  "files": [
-    "package.json",
-    "README.md"
-  ],
+  "typings": "./dist/index.d.ts",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^3.3.1"
