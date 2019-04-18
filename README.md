@@ -1,22 +1,22 @@
-# rx-http
+# rx-http-observable
 
 This Package rx-http lets you make HTTP requests, like GET, POST, PUT, PATCH, DELETE and HEAD.
 
-This plugin is compatible with Angular, React and Javascript projects.
+This plugin is compatible with Angular, React, Node and Javascript projects.
 
 ## Installation
 
 Using [npm](https://www.npmjs.com/):
-```$ npm install --save rx-http```
+```$ npm i rx-http-observable```
 
 ```js
 // using ES6 modules
-import { RxHttpRequest } from 'rx-http';
-var http = new RxHttpRequest();
+import { RxHttpObservable } from 'rx-http-observable';
+var http = new RxHttpObservable();
 
 // using CommonJS modules
 var http = require('rx-http')
-var http = new http.RxHttpRequest();
+var http = new http.RxHttpObservable();
 ```
 ## Usage
 Use these specific methods:
