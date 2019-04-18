@@ -15,7 +15,7 @@ import { RxHttpObservable } from 'rx-http-observable';
 var http = new RxHttpObservable();
 
 // using CommonJS modules
-var http = require('rx-http')
+var http = require('rx-http-observable')
 var http = new http.RxHttpObservable();
 ```
 ## Usage
