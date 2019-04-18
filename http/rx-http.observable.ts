@@ -2,7 +2,7 @@ import { RxHttp } from './rx-http';
 
 import { Observable } from 'rxjs';
 
-export class RxHttpRequest {
+export class RxHttpObservable {
 
   private http: RxHttp;
 

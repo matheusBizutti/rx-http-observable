@@ -1,1 +1,1 @@
-export { RxHttpRequest } from './http/rx-http.request';
+export { RxHttpObservable } from './http/rx-http.observable';
